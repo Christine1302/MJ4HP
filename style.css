@@ -64,6 +64,19 @@ body {
   height: 65px;
   object-fit: contain;
 }
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo a span {
+    font-size: 2rem; /* adjust as needed */
+    font-weight: bold;
+    line-height: 1;
+}
 
 .navbar nav {
   display: flex;
